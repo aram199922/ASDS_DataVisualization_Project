@@ -46,4 +46,4 @@ Due to licensing and repository size considerations, the dataset is **not includ
 All the codes are located in the folder `src`
 
 ### EDA
-Asided from EDA this .ipynb file will also output a processed file (in the `_output` folder)
+Aside from EDA this .ipynb file will also output a processed file (in the `_output` folder)
