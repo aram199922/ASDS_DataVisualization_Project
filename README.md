@@ -1,5 +1,18 @@
 # ASDS_DataVisualization_Project
 
+## Running the app
+===!!!For the sake of the assignment processed_dogs.csv is also pushed to the github repository!!!===
+
+Make sure the virtual environment is activated and dependencies are installed (see below), then run:
+
+```bash
+python src/app.py
+```
+
+The terminal will print the local URL. Open it in your browser:
+
+http://127.0.0.1:8050/
+
 ## Virtual Environment Setup
 
 Create a virtual environment (if you don't have one):
@@ -47,3 +60,7 @@ All the codes are located in the folder `src`
 
 ### EDA
 Aside from EDA this .ipynb file will also output a processed file (in the `_output` folder)
+
+### Dashboard
+
+The interactive dashboard is built with [Plotly Dash](https://dash.plotly.com/) and consists of 3 pages.
