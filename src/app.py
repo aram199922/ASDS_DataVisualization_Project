@@ -16,6 +16,8 @@ app = dash.Dash(
     suppress_callback_exceptions=True,
 )
 
+server = app.server
+
 navbar = dbc.NavbarSimple(
     children=[
         dbc.NavItem(dbc.NavLink("Overview", href="/")),
